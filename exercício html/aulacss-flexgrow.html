@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Flex-grow, flex-shirink e flex-basis</title>
+
+    <style>
+        .flex-div {
+            width: 500px;
+            display: flex;
+        }
+
+        .child-div1 {
+            border: 1px solid black;
+            flex-basis: 400px; /* define a largura inical do componente*/
+            /*flex-grow: 2;*/
+            flex-shrink: 2 ;
+        }
+
+        .child-div2 {
+            border: black solid 1px;
+            flex-basis: 500px;
+           /* flex-grow: 1;*/
+           flex-shrink: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-div">
+        <div class="child-div1">
+            Bom dia
+        </div>
+        <div class="child-div2">
+            Boa tarde
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Align e Justify</title>
+
+    <style>
+        .flex-div{
+            width: 500px;
+            height: 500px;
+            border: blue solid 2px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+            
+        }
+        .classe-filha-1 {
+            border: 2px solid black;
+            width: 50px;
+            height: 40px;
+        }
+        .classe-filha-2 {
+            border: 2px solid black;
+            width: 50px;
+            height: 45px;
+        }
+        .classe-filha-3 {
+            border: 2px solid black;
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-div">
+        <div class="classe-filha-1">
+            Olá 1 :)
+        </div>
+        <div class="classe-filha-2">
+            Olá 2 :)
+        </div>
+        <div class="classe-filha-3">
+            Olá 3 :)
+        </div>
+    </div>
+</body>
+</html>
